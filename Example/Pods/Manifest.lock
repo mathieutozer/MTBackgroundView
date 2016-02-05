@@ -1,0 +1,14 @@
+PODS:
+  - MTBackgroundView (0.1.0)
+
+DEPENDENCIES:
+  - MTBackgroundView (from `../`)
+
+EXTERNAL SOURCES:
+  MTBackgroundView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MTBackgroundView: 9ea9da9091eab574009eed40e98686932bacc666
+
+COCOAPODS: 0.39.0

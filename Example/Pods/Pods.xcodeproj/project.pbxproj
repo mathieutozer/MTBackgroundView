@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002E6017F09128EF60F538688046B1A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		14F733FA494385FF210743D6E3A76713 /* MTBackgroundView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 33113A104D5D35FB167FFB66209F815D /* MTBackgroundView.bundle */; };
+		22F3CCA78B2283BD3DA2F9D7A7E0F683 /* MTBackgroundView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7750B87B9E192865AD863A74A1C90AF /* MTBackgroundView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35608184984F9478E5FBC224ABD314E1 /* Pods-MTBackgroundView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF2A126EF8AD1F08D88C61CEDF4231 /* Pods-MTBackgroundView_Tests-dummy.m */; };
+		5007B488B778FC3292C6F379392459CD /* Pods-MTBackgroundView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 795842A535E888126B61573865A28984 /* Pods-MTBackgroundView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		744A0AF73BB67466407E080509F03FD9 /* MTBackgroundView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1920CA2F90230798CF71F6AA5A6D013B /* MTBackgroundView-dummy.m */; };
+		C4653143DDD6AA62F7BDB6D90C35B431 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		FA57D574D249D78E0553E5F85A7CA91D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E8746DBF039AE9631BBD780CA7A921 /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15A6611A9B3E756BC055CA6E3241F9B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 569C7A210F2385D2E4C509ACD6D498A5;
+			remoteInfo = "MTBackgroundView-MTBackgroundView";
+		};
+		A2CBE63C562080D313CDD870D069C345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46CF9D7996874F0F9715844C76F836C0;
+			remoteInfo = MTBackgroundView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01952D0F3C4C7F39A4E06F664CE7A8AA /* Pods-MTBackgroundView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTBackgroundView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0B0F18635E71E7FB8C4A9CFA096109D4 /* MTBackgroundView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MTBackgroundView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1920CA2F90230798CF71F6AA5A6D013B /* MTBackgroundView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTBackgroundView-dummy.m"; sourceTree = "<group>"; };
+		33113A104D5D35FB167FFB66209F815D /* MTBackgroundView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTBackgroundView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F502EAB2528ECADD2F164001C6910AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5591738B24694D0EAA80974F3FB3574D /* MTBackgroundView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTBackgroundView-prefix.pch"; sourceTree = "<group>"; };
+		576CE9806D80210E6537490CB1A1D0FD /* Pods-MTBackgroundView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTBackgroundView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7170F794A1F0ECCA6DA19EBA71691124 /* MTBackgroundView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MTBackgroundView.modulemap; sourceTree = "<group>"; };
+		795842A535E888126B61573865A28984 /* Pods-MTBackgroundView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTBackgroundView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7E2E8284DFB42103E33A575B74A352AA /* MTBackgroundView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTBackgroundView.xcconfig; sourceTree = "<group>"; };
+		8A0629369795CFB51F4FE6E850184420 /* Pods-MTBackgroundView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTBackgroundView_Tests-resources.sh"; sourceTree = "<group>"; };
+		94D6977D650E2D32A8A67EEBB4DE375D /* Pods_MTBackgroundView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTBackgroundView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AAF2A126EF8AD1F08D88C61CEDF4231 /* Pods-MTBackgroundView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTBackgroundView_Tests-dummy.m"; sourceTree = "<group>"; };
+		9F5DC9E77E030BF232FA1632CE0284A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAFE7DF6AF22C69337FAC926950A61E3 /* Pods-MTBackgroundView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTBackgroundView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C1EEB6ADC83B255A5D4BBA1E76F7540A /* Pods-MTBackgroundView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTBackgroundView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D5E8746DBF039AE9631BBD780CA7A921 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		E9FF53FBEC6BB4236422543992F91A71 /* Pods-MTBackgroundView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MTBackgroundView_Tests.modulemap"; sourceTree = "<group>"; };
+		F73B95B8DFDAE1CA9FA6AE8CCC44825A /* Pods-MTBackgroundView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTBackgroundView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7750B87B9E192865AD863A74A1C90AF /* MTBackgroundView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTBackgroundView-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		020E6977C8AFAB46FA5C56C3BB7D74A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002E6017F09128EF60F538688046B1A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF18B0D087F8DFB00AF02EF9061C0B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4653143DDD6AA62F7BDB6D90C35B431 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C1257543F304D68326197853C441A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		550B14C3061190FF6A4AB7407B0053D5 /* Pods-MTBackgroundView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9F5DC9E77E030BF232FA1632CE0284A6 /* Info.plist */,
+				E9FF53FBEC6BB4236422543992F91A71 /* Pods-MTBackgroundView_Tests.modulemap */,
+				F73B95B8DFDAE1CA9FA6AE8CCC44825A /* Pods-MTBackgroundView_Tests-acknowledgements.markdown */,
+				C1EEB6ADC83B255A5D4BBA1E76F7540A /* Pods-MTBackgroundView_Tests-acknowledgements.plist */,
+				9AAF2A126EF8AD1F08D88C61CEDF4231 /* Pods-MTBackgroundView_Tests-dummy.m */,
+				576CE9806D80210E6537490CB1A1D0FD /* Pods-MTBackgroundView_Tests-frameworks.sh */,
+				8A0629369795CFB51F4FE6E850184420 /* Pods-MTBackgroundView_Tests-resources.sh */,
+				795842A535E888126B61573865A28984 /* Pods-MTBackgroundView_Tests-umbrella.h */,
+				AAFE7DF6AF22C69337FAC926950A61E3 /* Pods-MTBackgroundView_Tests.debug.xcconfig */,
+				01952D0F3C4C7F39A4E06F664CE7A8AA /* Pods-MTBackgroundView_Tests.release.xcconfig */,
+			);
+			name = "Pods-MTBackgroundView_Tests";
+			path = "Target Support Files/Pods-MTBackgroundView_Tests";
+			sourceTree = "<group>";
+		};
+		633D5991B629C2AAC5F856F74A93BEFC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F502EAB2528ECADD2F164001C6910AD /* Info.plist */,
+				7170F794A1F0ECCA6DA19EBA71691124 /* MTBackgroundView.modulemap */,
+				7E2E8284DFB42103E33A575B74A352AA /* MTBackgroundView.xcconfig */,
+				1920CA2F90230798CF71F6AA5A6D013B /* MTBackgroundView-dummy.m */,
+				5591738B24694D0EAA80974F3FB3574D /* MTBackgroundView-prefix.pch */,
+				F7750B87B9E192865AD863A74A1C90AF /* MTBackgroundView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MTBackgroundView";
+			sourceTree = "<group>";
+		};
+		67FED03A4757559F7E769DD70AA58ED1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				550B14C3061190FF6A4AB7407B0053D5 /* Pods-MTBackgroundView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				A5E60413BD9A90C1C0F77D0C51A0044E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8CDCCC2F38B82C713EAA26FCC5F5CF6B /* Products */,
+				67FED03A4757559F7E769DD70AA58ED1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8CDCCC2F38B82C713EAA26FCC5F5CF6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33113A104D5D35FB167FFB66209F815D /* MTBackgroundView.bundle */,
+				0B0F18635E71E7FB8C4A9CFA096109D4 /* MTBackgroundView.framework */,
+				94D6977D650E2D32A8A67EEBB4DE375D /* Pods_MTBackgroundView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5E60413BD9A90C1C0F77D0C51A0044E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6F70C7A6841B3AD759A7534DD92E790 /* MTBackgroundView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CAB6806CC1A1A337588D9C920C4B3E84 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FD9BFDFB98581D3B700CB80C0624B0A1 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		E6F70C7A6841B3AD759A7534DD92E790 /* MTBackgroundView */ = {
+			isa = PBXGroup;
+			children = (
+				CAB6806CC1A1A337588D9C920C4B3E84 /* Pod */,
+				633D5991B629C2AAC5F856F74A93BEFC /* Support Files */,
+			);
+			name = MTBackgroundView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FD9BFDFB98581D3B700CB80C0624B0A1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D5E8746DBF039AE9631BBD780CA7A921 /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AC73B535126C5278C814971CF527F988 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F3CCA78B2283BD3DA2F9D7A7E0F683 /* MTBackgroundView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D351EA193CAD1F324A985E4E67479C38 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5007B488B778FC3292C6F379392459CD /* Pods-MTBackgroundView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		46CF9D7996874F0F9715844C76F836C0 /* MTBackgroundView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F695274F1DD46F121F1F77C874DC325B /* Build configuration list for PBXNativeTarget "MTBackgroundView" */;
+			buildPhases = (
+				8C9AB7F2DA656F88BDA0FDC4643144D0 /* Sources */,
+				020E6977C8AFAB46FA5C56C3BB7D74A0 /* Frameworks */,
+				55FCCA1B3E2CBE1F6EEB103736ABE247 /* Resources */,
+				AC73B535126C5278C814971CF527F988 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38EDBBA37DCD2348CF4E7B139320F90E /* PBXTargetDependency */,
+			);
+			name = MTBackgroundView;
+			productName = MTBackgroundView;
+			productReference = 0B0F18635E71E7FB8C4A9CFA096109D4 /* MTBackgroundView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		569C7A210F2385D2E4C509ACD6D498A5 /* MTBackgroundView-MTBackgroundView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CDF7B341019E9A77DCDA48450BEC39C /* Build configuration list for PBXNativeTarget "MTBackgroundView-MTBackgroundView" */;
+			buildPhases = (
+				5849BACA5D47323BC4408059DBE3DE9D /* Sources */,
+				D1C1257543F304D68326197853C441A8 /* Frameworks */,
+				48BA03C8C7D0CAEBE16E3120722135ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MTBackgroundView-MTBackgroundView";
+			productName = "MTBackgroundView-MTBackgroundView";
+			productReference = 33113A104D5D35FB167FFB66209F815D /* MTBackgroundView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D4BB7C3FCEA3CAA6261C18E1C46A8F4A /* Pods-MTBackgroundView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E830CAEEA60F9886F008FEA39EDBA5 /* Build configuration list for PBXNativeTarget "Pods-MTBackgroundView_Tests" */;
+			buildPhases = (
+				4D21EB31F638BEC4A38BA05957E355E8 /* Sources */,
+				0AF18B0D087F8DFB00AF02EF9061C0B3 /* Frameworks */,
+				D351EA193CAD1F324A985E4E67479C38 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E945FB780C5C3F0DCF09549010EF2D3B /* PBXTargetDependency */,
+			);
+			name = "Pods-MTBackgroundView_Tests";
+			productName = "Pods-MTBackgroundView_Tests";
+			productReference = 94D6977D650E2D32A8A67EEBB4DE375D /* Pods_MTBackgroundView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8CDCCC2F38B82C713EAA26FCC5F5CF6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46CF9D7996874F0F9715844C76F836C0 /* MTBackgroundView */,
+				569C7A210F2385D2E4C509ACD6D498A5 /* MTBackgroundView-MTBackgroundView */,
+				D4BB7C3FCEA3CAA6261C18E1C46A8F4A /* Pods-MTBackgroundView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48BA03C8C7D0CAEBE16E3120722135ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55FCCA1B3E2CBE1F6EEB103736ABE247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F733FA494385FF210743D6E3A76713 /* MTBackgroundView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D21EB31F638BEC4A38BA05957E355E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35608184984F9478E5FBC224ABD314E1 /* Pods-MTBackgroundView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5849BACA5D47323BC4408059DBE3DE9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9AB7F2DA656F88BDA0FDC4643144D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744A0AF73BB67466407E080509F03FD9 /* MTBackgroundView-dummy.m in Sources */,
+				FA57D574D249D78E0553E5F85A7CA91D /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38EDBBA37DCD2348CF4E7B139320F90E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MTBackgroundView-MTBackgroundView";
+			target = 569C7A210F2385D2E4C509ACD6D498A5 /* MTBackgroundView-MTBackgroundView */;
+			targetProxy = 15A6611A9B3E756BC055CA6E3241F9B2 /* PBXContainerItemProxy */;
+		};
+		E945FB780C5C3F0DCF09549010EF2D3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MTBackgroundView;
+			target = 46CF9D7996874F0F9715844C76F836C0 /* MTBackgroundView */;
+			targetProxy = A2CBE63C562080D313CDD870D069C345 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185FBD4A0967A3CE8845103994754184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E2E8284DFB42103E33A575B74A352AA /* MTBackgroundView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MTBackgroundView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		2C4A4A4D3B40E12CB49923E87D8E12BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAFE7DF6AF22C69337FAC926950A61E3 /* Pods-MTBackgroundView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MTBackgroundView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTBackgroundView_Tests/Pods-MTBackgroundView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MTBackgroundView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2CC0BEA4808AA653112A8C297EB5B86F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E2E8284DFB42103E33A575B74A352AA /* MTBackgroundView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MTBackgroundView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4B4CD04FE308DE209447A03B4F156568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E2E8284DFB42103E33A575B74A352AA /* MTBackgroundView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MTBackgroundView/MTBackgroundView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MTBackgroundView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MTBackgroundView/MTBackgroundView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MTBackgroundView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BAA93B1D30624967A25991F64A3751D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E2E8284DFB42103E33A575B74A352AA /* MTBackgroundView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MTBackgroundView/MTBackgroundView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MTBackgroundView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MTBackgroundView/MTBackgroundView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MTBackgroundView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC6BBFB04826D2D24CD670BC36839C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01952D0F3C4C7F39A4E06F664CE7A8AA /* Pods-MTBackgroundView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MTBackgroundView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTBackgroundView_Tests/Pods-MTBackgroundView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MTBackgroundView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33E830CAEEA60F9886F008FEA39EDBA5 /* Build configuration list for PBXNativeTarget "Pods-MTBackgroundView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4A4A4D3B40E12CB49923E87D8E12BD /* Debug */,
+				EC6BBFB04826D2D24CD670BC36839C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CDF7B341019E9A77DCDA48450BEC39C /* Build configuration list for PBXNativeTarget "MTBackgroundView-MTBackgroundView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC0BEA4808AA653112A8C297EB5B86F /* Debug */,
+				185FBD4A0967A3CE8845103994754184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F695274F1DD46F121F1F77C874DC325B /* Build configuration list for PBXNativeTarget "MTBackgroundView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4CD04FE308DE209447A03B4F156568 /* Debug */,
+				BAA93B1D30624967A25991F64A3751D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

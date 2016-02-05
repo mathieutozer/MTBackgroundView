@@ -1,0 +1,6 @@
+framework module MTBackgroundView {
+  umbrella header "MTBackgroundView-umbrella.h"
+
+  export *
+  module * { export * }
+}
